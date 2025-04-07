@@ -42,12 +42,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #110404;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #636582;
 }
 button:focus,
 button:focus-visible {
@@ -57,12 +57,13 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #d5c254;
   }
   a:hover {
-    color: #747bff;
+    color: #02030f;
   }
   button {
-    background-color: #f9f9f9;
+    color: white;
+    background-color: #000000;
   }
 }
